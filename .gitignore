@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vercel/
+*.zip
+*.rar
+*.7z
+Thumbs.db
+.DS_Store

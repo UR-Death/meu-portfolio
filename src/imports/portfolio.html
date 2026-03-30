@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Ricardo Sousa</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reminder.css">
+    <link rel="stylesheet" href="CSS/header-fixes.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-area">
+            <div class="logo-name">RICARDO SOUSA</div>
+            <p class="logo-sub">Modelador 3D/Desenvolvedor de Jogos</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html" class="active">Portfólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+             <h2 class="section-title">Portfólio</h2>
+             <div class="portfolio-selection">
+                <a href="portfolio-modelos.html" class="portfolio-category">
+                    
+                    <img src="images/Pasta_invidual.png" alt="Pasta de Modelos">
+                    <h3>Modelos Individuais</h3>
+                </a>
+                <a href="portfolio-cenarios.html" class="portfolio-category">
+                    <img src="images/pasta_scenarios.png" alt="Pasta de Cenários">
+                    <h3>Modelos Cenários</h3>
+                </a>
+                <a href="portofolio_jogos.html" class="portfolio-category">
+                    <img src="images/unity_icon.png" alt="Ícone de Jogo">
+                    <h3>Jogos Criados no Unity</h3>
+                </a>
+             </div>
+        </section>
+    </main>
+
+    <div id="portfolio-modal" class="pm-modal" aria-hidden="true">
+      <div class="pm-backdrop"></div>
+      <div class="pm-dialog" role="dialog" aria-modal="true">
+        <button class="pm-close" aria-label="Fechar">×</button>
+        <h3 class="pm-title"></h3>
+        <img class="pm-image" src="" alt="">
+        <div class="pm-info"></div>
+      </div>
+    </div>
+    <script src="JS/portfolio-modal.js"></script>
+    
+    <footer class="main-footer">
+        <p>© 2025 Ricardo Sousa</p>
+    </footer>
+
+</body>
+</html>

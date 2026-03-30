@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos - Portfólio Ricardo Sousa</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reminder.css">
+    <link rel="stylesheet" href="CSS/header-fixes.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-area">
+            <div class="logo-name">RICARDO SOUSA</div>
+            <p class="logo-sub">Modelador 3D/Desenvolvedor de Jogos</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="portfolio.html" class="active">Portfólio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Jogos Criados no Unity</h2>
+            <div class="project-grid">
+
+                <div class="project-item">
+                    
+                    <img src="images/jogo_prova_ageis.png" alt="A Prova dos Ágeis">
+                    <div class="project-info">
+                        <h3>A Prova dos Ágeis</h3>
+                        <p>Data de criação: 16/06/2025</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    
+                    <img src="images/jogo_drift_crash.png" alt="Drift Till U Crash">
+                    <div class="project-info">
+                        <h3>Drift Till U Crash</h3>
+                        <p>Data de criação: 11/06/2025</p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    
+                    <img src="images/jogo_equality_cards.png" alt="Equality Cards">
+                    <div class="project-info">
+                        <h3>Equality Cards</h3>
+                        <p>Data de criação: 15/01/2025</p>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    
+                    <img src="images/jogo_galeria_arte.png" alt="Galeria de Arte Virtual">
+                    <div class="project-info">
+                        <h3>Galeria de Arte Virtual</h3>
+                        <p>Data de criação: 12/01/2025</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2025 Ricardo Sousa</p>
+    </footer>
+
+        <div id="portfolio-modal" class="pm-modal" aria-hidden="true">
+            <div class="pm-backdrop"></div>
+            <div class="pm-dialog" role="dialog" aria-modal="true">
+                <button class="pm-close" aria-label="Fechar">×</button>
+                <h3 class="pm-title"></h3>
+                <img class="pm-image" src="" alt="">
+                <div class="pm-info"></div>
+            </div>
+        </div>
+
+        <script src="JS/portfolio-modal.js"></script>
+
+</body>
+</html>

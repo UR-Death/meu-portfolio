@@ -1,0 +1,43 @@
+/* Header fixes: reduce header height and tighten spacing */
+.main-header{
+    padding: 10px 20px;
+}
+.logo-area{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:2px;
+}
+.logo-name{
+    font-size:1.25rem;
+    line-height:1;
+    margin:0;
+}
+.logo-sub{
+    font-size:0.9rem;
+    margin:0;
+    color:#ffb366;
+}
+@media (max-width:600px){
+    .logo-area{align-items:center;}
+    .main-header {flex-direction: column; gap: 10px;}
+    .main-nav ul {display:flex; flex-direction:column; width:100%; align-items:center;}
+    .main-nav li {margin: 6px 0;}
+}
+
+/* Portfolio modal styles */
+.pm-modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:2000}
+.pm-modal.open{display:flex}
+.pm-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.6)}
+.pm-dialog{position:relative;background:#213141;color:#dfeff3;width:720px;max-width:95%;max-height:85vh;border-radius:6px;overflow:auto;padding:20px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+.pm-close{position:absolute;right:12px;top:8px;border:none;background:transparent;color:#9fd1c9;font-size:1.4rem;cursor:pointer}
+.pm-title{color:#9fd1c9;margin:0 0 12px 0}
+.pm-image{width:100%;height:auto;border-radius:4px;background:#f2f2f2;margin-bottom:14px}
+.pm-info{font-size:0.95rem;color:#cbd7dd}
+.pm-info .label{color:#9fd1c9;font-weight:700;margin-top:10px}
+.pm-info p{margin:4px 0 0 0}
+
+@media (max-width:480px){
+    .pm-dialog{padding:12px}
+    .pm-close{right:8px;top:6px}
+}
