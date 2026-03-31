@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { X } from 'lucide-react';
 import { Link } from 'react-router';
 
-import jogo_drift_crash from '../../Images/jogo_drift_crash.png';
-import jogo_galeria_arte from '../../Images/jogo_galeria_arte.png';
-import jogo_prova_ageis from '../../Images/jogo_prova_ageis.png';
-import jogo_equality_cards from '../../Images/jogo_equality_cards.png';
+import jogo_drift_crash from '../../Images/jogo_drift_crash.webp';
+import jogo_galeria_arte from '../../Images/jogo_galeria_arte.webp';
+import jogo_prova_ageis from '../../Images/jogo_prova_ageis.webp';
+import jogo_equality_cards from '../../Images/jogo_equality_cards.webp';
 
 interface Game {
   id: number;

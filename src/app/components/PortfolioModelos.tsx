@@ -5,14 +5,14 @@ import { X } from 'lucide-react';
 import { Link } from 'react-router';
 
 
-import Boneco_de_Neve from '../../Images/Boneco_de_Neve.png';
-import Box from '../../Images/Box.png';
-import Cadeira_gaming from '../../Images/Cadeira_gaming.png';
-import Cadeiras_Mesas from '../../Images/Cadeiras&Mesas.png';
-import Caneca_de_Madeira from '../../Images/Caneca_de_Madeira.png';
-import Relogio_de_Xadrez from '../../Images/Relogio_de_Xadrez.png';
-import Xadrez from '../../Images/Xadrez.png';
-import escadas from '../../Images/escadas.png';
+import Boneco_de_Neve from '../../Images/Boneco_de_Neve.webp';
+import Box from '../../Images/Box.webp';
+import Cadeira_gaming from '../../Images/Cadeira_gaming.webp';
+import Cadeiras_Mesas from '../../Images/Cadeiras&Mesas.webp';
+import Caneca_de_Madeira from '../../Images/Caneca_de_Madeira.webp';
+import Relogio_de_Xadrez from '../../Images/Relogio_de_Xadrez.webp';
+import Xadrez from '../../Images/Xadrez.webp';
+import escadas from '../../Images/escadas.webp';
 
 
 interface Project {

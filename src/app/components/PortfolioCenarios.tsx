@@ -3,25 +3,25 @@ import { useState } from 'react';
 import { X } from 'lucide-react';
 import { Link } from 'react-router';
 
-import cenario_quarto1_view1 from '../../Images/cenario_quarto1_view1.png';
-import cenario_quarto1_view2 from '../../Images/cenario_quarto1_view2.png';
-import cenario_quarto6_view1 from '../../Images/cenario_quarto6_view1.png';
-import cenario_quarto6_view2 from '../../Images/cenario_quarto6_view2.png';
-import cenario_quarto9_view1 from '../../Images/cenario_quarto9_view1.png';
-import cenario_quartodebanho from '../../Images/cenario_quartodebanho.png';
-import cenario_sala2_view1 from '../../Images/cenario_sala2_view1.png';
-import cenario_sala2_view2 from '../../Images/cenario_sala2_view2.png';
-import cenario_sala2_view3 from '../../Images/cenario_sala2_view3.png';
-import cenario_sala3_view1 from '../../Images/cenario_sala3_view1.png';
-import cenario_sala3_view2 from '../../Images/cenario_sala3_view2.png';
-import cenario_sala3_view3 from '../../Images/cenario_sala3_view3.png';
-import cenario_sala3_view4 from '../../Images/cenario_sala3_view4.png';
-import cenario_sala4_view1 from '../../Images/cenario_sala4_view1.png';
-import cenario_sala4_view2 from '../../Images/cenario_sala4_view2.png';
-import cenario_sala4_view3 from '../../Images/cenario_sala4_view3.png';
-import cenario_sala4_view4 from '../../Images/cenario_sala4_view4.png';
-import cenario_sala5_view1 from '../../Images/cenario_sala5_view1.png';
-import cenario_sala5_view2 from '../../Images/cenario_sala5_view2.png';
+import cenario_quarto1_view1 from '../../Images/cenario_quarto1_view1.webp';
+import cenario_quarto1_view2 from '../../Images/cenario_quarto1_view2.webp';
+import cenario_quarto6_view1 from '../../Images/cenario_quarto6_view1.webp';
+import cenario_quarto6_view2 from '../../Images/cenario_quarto6_view2.webp';
+import cenario_quarto9_view1 from '../../Images/cenario_quarto9_view1.webp';
+import cenario_quartodebanho from '../../Images/cenario_quartodebanho.webp';
+import cenario_sala2_view1 from '../../Images/cenario_sala2_view1.webp';
+import cenario_sala2_view2 from '../../Images/cenario_sala2_view2.webp';
+import cenario_sala2_view3 from '../../Images/cenario_sala2_view3.webp';
+import cenario_sala3_view1 from '../../Images/cenario_sala3_view1.webp';
+import cenario_sala3_view2 from '../../Images/cenario_sala3_view2.webp';
+import cenario_sala3_view3 from '../../Images/cenario_sala3_view3.webp';
+import cenario_sala3_view4 from '../../Images/cenario_sala3_view4.webp';
+import cenario_sala4_view1 from '../../Images/cenario_sala4_view1.webp';
+import cenario_sala4_view2 from '../../Images/cenario_sala4_view2.webp';
+import cenario_sala4_view3 from '../../Images/cenario_sala4_view3.webp';
+import cenario_sala4_view4 from '../../Images/cenario_sala4_view4.webp';
+import cenario_sala5_view1 from '../../Images/cenario_sala5_view1.webp';
+import cenario_sala5_view2 from '../../Images/cenario_sala5_view2.webp';
 
 
 interface Project {

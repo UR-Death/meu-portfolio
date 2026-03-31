@@ -4,8 +4,8 @@ import { X, Play, Image as ImageIcon } from 'lucide-react';
 import { Link } from 'react-router';
 import carrosComSomVideo from '../../videos/Carros com som.mp4';
 import testeAtencaoSeletivaVideo from '../../videos/Teste de Atenção Seletiva.mp4';
-import carrosComSomThumb from '../../videos/thumbnail_carros.png';
-import testeAtencaoSeletivaThumb from '../../videos/thumbnail_Teste de Atenção Seletiva.png';
+import carrosComSomThumb from '../../videos/thumbnail_carros.webp';
+import testeAtencaoSeletivaThumb from '../../videos/thumbnail_Teste de Atenção Seletiva.webp';
 
 interface MediaItem {
   id: number;
@@ -28,7 +28,7 @@ export function PortfolioMultimedia() {
       thumbnail: carrosComSomThumb,
       url: carrosComSomVideo,
       date: '2024-12-15',
-      description: 'Vídeo local capturado na pasta src/videos',
+      description: 'Stop Motion Mario cart: Um stop motion de 4 pessoas a competir a quem chega a meta final',
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ export function PortfolioMultimedia() {
       thumbnail: testeAtencaoSeletivaThumb,
       url: testeAtencaoSeletivaVideo,
       date: '2024-12-10',
-      description: 'Vídeo local de teste de atenção seletiva',
+      description: 'Um vídeo de teste de atenção seletiva',
     },
     // Adicione mais itens multimédia aqui conforme necessário
   ];
